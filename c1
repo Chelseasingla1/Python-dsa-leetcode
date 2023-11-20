@@ -1,0 +1,33 @@
+## WRITE THE PRINT_ITEMS FUNCTION HERE ##
+#                                       #
+#                                       #
+#                                       #
+#                                       #
+#########################################
+  
+# def print_items(n):
+#     for i in range(n):
+#         print(i)
+         
+# def print_items(n):
+#     i = 0
+#     while i < n:
+#         print(i)
+#         i += 1
+
+# def print_items(n):
+#     for i in list(range(n)):
+#         print(i)
+ 
+ 
+# def print_items(n):
+#     for i in iter(range(n)):
+#         print(i)      
+# def print_items(n):
+#     _ = [print(i) for i in range(n)]
+
+def print_items(n):
+    _ = list(map(print,
+    range(n)))  
+# DO NOT CHANGE THIS LINE:
+print_items(10)
